@@ -3,7 +3,7 @@ import { INavData } from '@coreui/angular';
 export const JavaScriptNavItems: INavData[] = [
   {
     name: 'JavaScript',
-    url: '/dashboard',
+    url: '/javascript',
     iconComponent: { name: 'cil-speedometer' },
     badge: {
       color: 'info',
