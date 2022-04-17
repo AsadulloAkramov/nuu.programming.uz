@@ -20,9 +20,8 @@ export const htmlNavItems: INavData[] = [
     iconComponent: { name: 'cil-drop' }
   },
   {
-    name: 'Typography',
-    url: '/theme/typography',
-    linkProps: { fragment: 'someAnchor' },
+    name: 'HTML Basic',
+    url: '/html/basic',
     iconComponent: { name: 'cil-pencil' }
   },
   {
