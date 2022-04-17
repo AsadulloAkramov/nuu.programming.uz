@@ -1,5 +1,6 @@
-<div class="introduction container-fluid">
-  <h2 class="fs-1 font-monospace">HTML Introduction</h2>
+<div class="introduction container-fluid fs-5">
+  <h2 class="fs-1 ">HTML Introduction</h2>
+
   <div class="d-flex justify-content-between align-items-center">
     <a class="btn btn-success" routerLink="/html">
       <i class="fa-solid fa-arrow-left-long"></i>
@@ -9,5 +10,179 @@
        Next
        <i class="fa-solid fa-arrow-right-long"></i>
     </a>
+  </div>
+
+  <hr-line> 
+    <p class="fs-3">HTML web sahifalar yaratish uchun standart markup tildir</p>
+  </hr-line>
+
+  <div class="info mb-4">
+    <h4>HTML nima?</h4>
+    <ul class="list-group">
+      <li class="list-group-item">HTML to'liq kengaytmasi Hyper Text Markup Language</li>
+      <li class="list-group-item">HTML web sahifalar yaratish uchun mo'ljallangan belgilash tilidir</li>
+      <li class="list-group-item">HTML web sahifaning strukturasini belgilab beradi </li>
+      <li class="list-group-item">HTML bir qanc ha elementlar to'plamidan tashkil topadi</li>
+      <li class="list-group-item">HTML bevosita brauzer bilan web sahifaning qanday ko'rsatilishi haqida gaplashadi</li>
+    </ul>
+  </div>
+  
+  <hr-line>
+    <example >
+      <div class="content px-3 py-2">
+        <p class="text-danger"> <span class="primary-right"><</span> !DOCTYPE html <span class="primary-left">></span></p>
+        <p class="text-danger"> <span class="primary-right"><</span> html<span class="primary-left">></span></p>
+        <p class="text-danger"> <span class="primary-right"><</span> head<span class="primary-left">></span></p>
+        <p class="text-danger">
+          <span>
+            <span class="primary-right"><</span>title<span class="primary-left">></span>
+          </span>
+            <span class="text-dark">Page title</span>
+            <span>
+              <span class="primary-right"><</span>/title<span class="primary-left">></span>
+            </span>
+        </p>
+        <p class="text-danger"> <span class="primary-right"><</span> body<span class="primary-left">></span></p>
+          
+          <p class="text-danger">
+            <span>
+              <span class="primary-right"><</span>h1<span class="primary-left">></span>
+            </span>
+              <span class="text-dark">My first heading</span>
+              <span>
+                <span class="primary-right"><</span>/h1<span class="primary-left">></span>
+              </span>
+          </p>
+          <p class="text-danger">
+            <span>
+              <span class="primary-right"><</span>p<span class="primary-left">></span>
+            </span>
+              <span class="text-dark">My first paragraph</span>
+              <span>
+                <span class="primary-right"><</span>/p<span class="primary-left">></span>
+              </span>
+          </p>
+          
+        <p class="text-danger"> <span class="primary-right"><</span> /body<span class="primary-left">></span></p>
+        <p class="text-danger"> <span class="primary-right"><</span> /html<span class="primary-left">></span></p>
+      </div>
+    </example>
+
+    <div class="example-explain">
+      <p class="fs-4 mb-3">Namunanining izohi</p>
+      <ul class="mx-4">
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> !DOCTYPE html <span class="primary-left">></span>
+            <span class="text-dark"> documentning HTML5 asosida qurilganini aniqlaydi (HTML5 - eng so'nggi versiyasi)</span>
+          </p> 
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> html<span class="primary-left">></span>
+          <span class="text-dark"> HTML sahifaning asosiy root elementi</span>
+          </p>
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> head<span class="primary-left">></span>
+            <span class="text-dark">  HTML sahifaning meta informatsiyalardan tashkil topadi</span>
+          </p>
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> title<span class="primary-left">></span>
+            <span class="text-dark">  HTML sahifaning sarlavhasini aniqlaydi</span>
+          </p>
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> body<span class="primary-left">></span>
+            <span class="text-dark">  HTML sahifaning asosiy kontenti uning body qismida yoziladi</span>
+          </p>
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> h1<span class="primary-left">></span>
+            <span class="text-dark">  HTML sahifada mavjud bo'lishi mukin bo'lgan eng katta heading element</span>
+          </p>
+        </li>
+        <li>
+          <p class="text-danger"> <span class="primary-right"><</span> p<span class="primary-left">></span>
+            <span class="text-dark">  HTML sahifadagi matnlar aynan paragraph(p) elementi ichida yoziladi</span>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </hr-line>
+
+  <div class="my-4">
+    <h2>HTML element o'zi nima?</h2>
+    <p>
+      HTML teg odatda ochiluvchi tag , element kontenti va yopiluvchi teglar bilan ifodalanadi
+    </p>
+    <div class="tag-example mx-4 fs-3">
+       <span class="text-danger">
+         <span class="primary-left"> < </span>
+         tagname
+         <span class="primary-right"> > </span>
+       </span>
+       <span class="text-dark px-3"> Content... </span>
+       <span class="text-danger">
+        <span class="primary-left">  < </span>
+        /tagname
+        <span class="primary-right"> > </span>
+      </span>
+    </div>
+
+    <p class="mt-2">HTML element har doim ochiluvchi tegdan boshlanib yopiluvchi teg bilan tugaydi</p>
+  </div>
+
+  <table class="table table-striped table-hover my-3">
+    <thead>
+      <tr>
+        <td>Ochiluvchi teg</td>
+        <td>Content</td>
+        <td>Yopiluvchi teg</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p class="text-danger"> <span class="primary-right"><</span> h1<span class="primary-left">></span></p>
+        </td>
+        <td>
+          Mening birinchi heading elementim
+        </td>
+        <td>
+          <p class="text-danger"> <span class="primary-right"><</span> /h1<span class="primary-left">></span></p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p class="text-danger"> <span class="primary-right"><</span> p<span class="primary-left">></span></p>
+        </td>
+        <td>
+          Mening birinchi paragraph elementim
+        </td>
+        <td>
+          <p class="text-danger"> <span class="primary-right"><</span> /p<span class="primary-left">></span></p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p class="text-danger"> <span class="primary-right"><</span> br<span class="primary-left">></span></p>
+        </td>
+        <td>
+          none
+        </td>
+        <td>
+          none
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note alert alert-warning">
+      Eslatma: Ba'zi HTML elementlar (misol uchun 
+      <span class="text-danger">
+        <span class="primary-right"><</span> br<span class="primary-left">></span>
+      </span>) kontenti bo'lmaydi. Bunday elementlar bo'sh elementlar deb ataladi.Bo'sh elementlarining yopiluvchisi ham bo'lmaydi
   </div>
 </div>
