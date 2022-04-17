@@ -11,112 +11,90 @@ export const JavaScriptNavItems: INavData[] = [
     }
   },
   {
-    title: true,
-    name: 'Theme'
-  },
-  {
-    name: 'Colors',
-    url: '/theme/colors',
-    iconComponent: { name: 'cil-drop' }
-  },
-  {
-    name: 'Typography',
-    url: '/theme/typography',
-    linkProps: { fragment: 'someAnchor' },
-    iconComponent: { name: 'cil-pencil' }
-  },
-  {
-    name: 'Components',
+    name: 'JS Syntax',
     title: true
   },
   {
-    name: 'Base',
-    url: '/base',
+    name: 'JS Introduction',
+    url: '/javascript',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Accordion',
-        url: '/base/accordion'
+        name: 'JS Introduction',
+        url: 'javascript/introduction'
       },
       {
-        name: 'Breadcrumbs',
-        url: '/base/breadcrumbs'
+        name: 'JS Where To',
+        url: '/javascript/where_to'
       },
-      {
-        name: 'Cards',
-        url: '/base/cards'
-      },
-      {
-        name: 'Carousel',
-        url: '/base/carousel'
-      },
-      {
-        name: 'Collapse',
-        url: '/base/collapse'
-      },
-      {
-        name: 'List Group',
-        url: '/base/list-group'
-      },
-      {
-        name: 'Navs & Tabs',
-        url: '/base/navs'
-      },
-      {
-        name: 'Pagination',
-        url: '/base/pagination'
-      },
-      {
-        name: 'Placeholder',
-        url: '/base/placeholder'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress'
-      },
-      {
-        name: 'Spinners',
-        url: '/base/spinners'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips'
-      }
+      
     ]
   },
   {
-    name: 'Buttons',
+    name: 'JS Fundamentals',
     url: '/buttons',
     iconComponent: { name: 'cil-cursor' },
     children: [
       {
-        name: 'Buttons',
-        url: '/buttons/buttons'
+        name: 'JS Statements',
+        url: '/javascript/statements'
       },
       {
-        name: 'Button groups',
-        url: '/buttons/button-groups'
+        name: 'JS Variables',
+        url: '/javascript/variables'
       },
       {
-        name: 'Dropdowns',
-        url: '/buttons/dropdowns'
+        name: 'JS let',
+        url: '/javascript/let'
+      },
+      {
+        name: 'JS const',
+        url: '/javascript/const'
+      },
+      {
+        name: 'JS Data Types',
+        url: '/javascript/data_types'
+      },
+      {
+        name: 'JS Booleans',
+        url: '/javascript/booleans'
+      },
+      {
+        name: 'JS Comparisons',
+        url: '/javascript/comparisons'
+      },
+      {
+        name: 'JS If Else',
+        url: '/javascript/if_else'
+      },
+      {
+        name: 'JS Switch',
+        url: '/javascript/switch'
+      },
+      {
+        name: 'JS Loop For',
+        url: '/javascript/loop_for'
+      },
+      {
+        name: 'JS Loop For In',
+        url: '/javascript/loop_for_in'
+      },
+      {
+        name: 'JS Loop For Of',
+        url: '/javascript/loop_for_of'
+      },
+      {
+        name: 'JS Loop While',
+        url: '/javascript/loop_while'
+      },
+      {
+        name: 'JS Break',
+        url: '/javascript/break'
       },
     ]
   },
   {
-    name: 'Forms',
+    name: 'JS Data Types',
     url: '/forms',
     iconComponent: { name: 'cil-notes' },
     children: [
@@ -155,12 +133,7 @@ export const JavaScriptNavItems: INavData[] = [
     ]
   },
   {
-    name: 'Charts',
-    url: '/charts',
-    iconComponent: { name: 'cil-chart-pie' }
-  },
-  {
-    name: 'Icons',
+    name: 'JS Numbers',
     iconComponent: { name: 'cil-star' },
     url: '/icons',
     children: [
@@ -183,7 +156,7 @@ export const JavaScriptNavItems: INavData[] = [
     ]
   },
   {
-    name: 'Notifications',
+    name: 'JS Strings',
     url: '/notifications',
     iconComponent: { name: 'cil-bell' },
     children: [
@@ -206,17 +179,154 @@ export const JavaScriptNavItems: INavData[] = [
     ]
   },
   {
-    name: 'Widgets',
-    url: '/widgets',
-    iconComponent: { name: 'cil-calculator' },
-    badge: {
-      color: 'info',
-      text: 'NEW'
-    }
+    name: 'JS Arrays',
+    url: '/notifications',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Alerts',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'Badges',
+        url: '/notifications/badges'
+      },
+      {
+        name: 'Modal',
+        url: '/notifications/modal'
+      },
+      {
+        name: 'Toast',
+        url: '/notifications/toasts'
+      }
+    ]
   },
   {
+    name: 'JS Functions',
+    url: '/notifications',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Alerts',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'Badges',
+        url: '/notifications/badges'
+      },
+      {
+        name: 'Modal',
+        url: '/notifications/modal'
+      },
+      {
+        name: 'Toast',
+        url: '/notifications/toasts'
+      }
+    ]
+  },
+  {
+    name: 'JS OOP',
+    url: '/notifications',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Alerts',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'Badges',
+        url: '/notifications/badges'
+      },
+      {
+        name: 'Modal',
+        url: '/notifications/modal'
+      },
+      {
+        name: 'Toast',
+        url: '/notifications/toasts'
+      }
+    ]
+  },
+  {
+    name: 'JS JSON',
+    url: '/notifications',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Alerts',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'Badges',
+        url: '/notifications/badges'
+      },
+      {
+        name: 'Modal',
+        url: '/notifications/modal'
+      },
+      {
+        name: 'Toast',
+        url: '/notifications/toasts'
+      }
+    ]
+  },
+  {
+    name: 'JS AJAX',
+    url: '/notifications',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Alerts',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'Badges',
+        url: '/notifications/badges'
+      },
+      {
+        name: 'Modal',
+        url: '/notifications/modal'
+      },
+      {
+        name: 'Toast',
+        url: '/notifications/toasts'
+      }
+    ]
+  },
+
+  // JS DOM
+  {
     title: true,
-    name: 'Extras'
+    name: 'JS DOM'
+  },
+  {
+    name: 'Pages',
+    url: '/login',
+    iconComponent: { name: 'cil-star' },
+    children: [
+      {
+        name: 'Login',
+        url: '/login'
+      },
+      {
+        name: 'Register',
+        url: '/register'
+      },
+      {
+        name: 'Error 404',
+        url: '/404'
+      },
+      {
+        name: 'Error 500',
+        url: '/500'
+      }
+    ]
+  },
+
+  // JS BOM
+  {
+    title: true,
+    name: 'JS BOM'
   },
   {
     name: 'Pages',
