@@ -4,7 +4,7 @@ export const JavaScriptNavItems: INavData[] = [
   {
     name: 'JavaScript',
     url: '/javascript',
-    iconComponent: { name: 'cib-javascript' },
+    iconComponent: { name: 'cil-speedometer' },
     badge: {
       color: 'info',
       text: 'Popular'
