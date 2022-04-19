@@ -3,11 +3,11 @@ import { INavData } from '@coreui/angular';
 export const JavaScriptNavItems: INavData[] = [
   {
     name: 'JavaScript',
-    url: '/dashboard',
-    iconComponent: { name: 'cil-speedometer' },
+    url: '/javascript',
+    iconComponent: { name: 'cib-javascript' },
     badge: {
       color: 'info',
-      text: 'NEW'
+      text: 'Popular'
     }
   },
   {
@@ -95,47 +95,19 @@ export const JavaScriptNavItems: INavData[] = [
   },
   {
     name: 'JS Data Types',
-    url: '/forms',
+    url: '/data-types',
     iconComponent: { name: 'cil-notes' },
     children: [
       {
-        name: 'Form Control',
-        url: '/forms/form-control'
+        name: 'JS Data Types',
+        url: '/javascript/data-types'
       },
-      {
-        name: 'Select',
-        url: '/forms/select'
-      },
-      {
-        name: 'Checks & Radios',
-        url: '/forms/checks-radios'
-      },
-      {
-        name: 'Range',
-        url: '/forms/range'
-      },
-      {
-        name: 'Input Group',
-        url: '/forms/input-group'
-      },
-      {
-        name: 'Floating Labels',
-        url: '/forms/floating-labels'
-      },
-      {
-        name: 'Layout',
-        url: '/forms/layout'
-      },
-      {
-        name: 'Validation',
-        url: '/forms/validation'
-      }
     ]
   },
   {
     name: 'JS Numbers',
     iconComponent: { name: 'cil-star' },
-    url: '/icons',
+    url: '/numbers',
     children: [
       {
         name: 'CoreUI Free',
