@@ -32,7 +32,7 @@ export const JavaScriptNavItems: INavData[] = [
   },
   {
     name: 'JS Fundamentals',
-    url: '/buttons',
+    url: '/fundamentals',
     iconComponent: { name: 'cil-cursor' },
     children: [
       {
@@ -110,20 +110,16 @@ export const JavaScriptNavItems: INavData[] = [
     url: '/numbers',
     children: [
       {
-        name: 'CoreUI Free',
-        url: '/icons/coreui-icons',
-        badge: {
-          color: 'success',
-          text: 'FREE'
-        }
+        name: 'JS Numbers',
+        url: '/javascript/numbers'
       },
       {
-        name: 'CoreUI Flags',
-        url: '/icons/flags'
+        name: 'JS Number Methods',
+        url: '/javascript/number-methods'
       },
       {
-        name: 'CoreUI Brands',
-        url: '/icons/brands'
+        name: ' JS Number Tasks',
+        url: '/javascript/number-tasks'
       }
     ]
   },
@@ -133,80 +129,76 @@ export const JavaScriptNavItems: INavData[] = [
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
-        url: '/notifications/alerts'
+        name: 'JS String',
+        url: '/javascript/string'
       },
       {
-        name: 'Badges',
-        url: '/notifications/badges'
+        name: 'JS String Methods',
+        url: '/javascript/string-methods'
       },
       {
-        name: 'Modal',
-        url: '/notifications/modal'
-      },
-      {
-        name: 'Toast',
-        url: '/notifications/toasts'
+        name: 'JS String Tasks',
+        url: '/javascript/string-tasks'
       }
     ]
   },
   {
     name: 'JS Arrays',
-    url: '/notifications',
+    url: '/arrays',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
-        url: '/notifications/alerts'
+        name: 'JS Arrays',
+        url: '/javascript/arrays'
       },
       {
-        name: 'Badges',
-        url: '/notifications/badges'
+        name: 'JS Arrays Methods',
+        url: '/javascript/array-methods'
       },
       {
-        name: 'Modal',
-        url: '/notifications/modal'
-      },
-      {
-        name: 'Toast',
-        url: '/notifications/toasts'
+        name: 'JS Array Tasks',
+        url: '/javascript/array-tasks'
       }
     ]
   },
   {
     name: 'JS Functions',
-    url: '/notifications',
+    url: '/functions',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
-        url: '/notifications/alerts'
+        name: 'JS Functions',
+        url: '/javascript/functions'
       },
       {
-        name: 'Badges',
-        url: '/notifications/badges'
+        name: 'Regular Functions',
+        url: '/javascript/regular-function'
       },
       {
-        name: 'Modal',
-        url: '/notifications/modal'
+        name: 'Arrow Functions',
+        url: '/javascript/arrow-function'
       },
       {
-        name: 'Toast',
-        url: '/notifications/toasts'
+        name: 'JS Hoisting',
+        url: '/javascript/hoisting'
+      },
+      {
+        name: 'JS Functions Tasks',
+        url: '/javascript/function-tasks'
       }
     ]
   },
   {
     name: 'JS OOP',
-    url: '/notifications',
+    url: '/oop',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
+        name: 'Classes',
         url: '/notifications/alerts'
       },
       {
-        name: 'Badges',
+        name: 'Inheritance',
         url: '/notifications/badges'
       },
       {
@@ -221,47 +213,63 @@ export const JavaScriptNavItems: INavData[] = [
   },
   {
     name: 'JS JSON',
-    url: '/notifications',
+    url: '/json',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
-        url: '/notifications/alerts'
+        name: 'JSON Introduction',
+        url: '/javascript/json-intro'
       },
       {
-        name: 'Badges',
-        url: '/notifications/badges'
+        name: 'JSON Syntax',
+        url: '/javascript/json-syntax'
       },
       {
-        name: 'Modal',
-        url: '/notifications/modal'
+        name: 'JSON vs XML',
+        url: '/javascript/json&&xml'
       },
       {
-        name: 'Toast',
-        url: '/notifications/toasts'
+        name: 'JSON Parse',
+        url: '/javascript/json-parse'
+      },
+      {
+        name: 'JSON Stringify',
+        url: '/javascript/json-stringify'
+      },
+      {
+        name: 'JSON Arrays',
+        url: '/javascript/json-arrays'
+      },
+      {
+        name: 'JSON Objects',
+        url: '/javascript/json-objects'
       }
     ]
   },
   {
     name: 'JS AJAX',
-    url: '/notifications',
+    url: '/ajax',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
-        url: '/notifications/alerts'
+        name: 'AJAX Intro',
+        url: '/javascript/ajax-intro'
       },
       {
-        name: 'Badges',
-        url: '/notifications/badges'
+        name: 'AJAX XMLHttp',
+        url: '/javascript/ajax-xmlhttp'
       },
       {
-        name: 'Modal',
-        url: '/notifications/modal'
+        name: 'AJAX Request',
+        url: '/javascript/ajax-request'
       },
       {
-        name: 'Toast',
-        url: '/notifications/toasts'
+        name: 'AJAX Response',
+        url: '/javascript/ajax-response'
+      },
+      {
+        name: 'AJAX Tasks',
+        url: '/javascript/ajax-tasks'
       }
     ]
   },
