@@ -53,7 +53,7 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Data Types',
-        url: '/javascript/data_types'
+        url: '/javascript/data-types'
       },
       {
         name: 'JS Booleans',
@@ -65,7 +65,7 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS If Else',
-        url: '/javascript/if_else'
+        url: '/javascript/if-else'
       },
       {
         name: 'JS Switch',
@@ -73,19 +73,19 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Loop For',
-        url: '/javascript/loop_for'
+        url: '/javascript/loop/for'
       },
       {
         name: 'JS Loop For In',
-        url: '/javascript/loop_for_in'
+        url: '/javascript/loop/for-in'
       },
       {
         name: 'JS Loop For Of',
-        url: '/javascript/loop_for_of'
+        url: '/javascript/loop/for-of'
       },
       {
         name: 'JS Loop While',
-        url: '/javascript/loop_while'
+        url: '/javascript/loop/while'
       },
       {
         name: 'JS Break',
@@ -115,11 +115,11 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Number Methods',
-        url: '/javascript/number-methods'
+        url: '/javascript/number/methods'
       },
       {
         name: ' JS Number Tasks',
-        url: '/javascript/number-tasks'
+        url: '/javascript/number/tasks'
       }
     ]
   },
@@ -134,11 +134,11 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS String Methods',
-        url: '/javascript/string-methods'
+        url: '/javascript/string/methods'
       },
       {
         name: 'JS String Tasks',
-        url: '/javascript/string-tasks'
+        url: '/javascript/string/tasks'
       }
     ]
   },
@@ -153,11 +153,11 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Arrays Methods',
-        url: '/javascript/array-methods'
+        url: '/javascript/array/methods'
       },
       {
         name: 'JS Array Tasks',
-        url: '/javascript/array-tasks'
+        url: '/javascript/array/tasks'
       }
     ]
   },
@@ -172,11 +172,11 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'Regular Functions',
-        url: '/javascript/regular-function'
+        url: '/javascript/regular/function'
       },
       {
         name: 'Arrow Functions',
-        url: '/javascript/arrow-function'
+        url: '/javascript/arrow/function'
       },
       {
         name: 'JS Hoisting',
@@ -184,7 +184,7 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Functions Tasks',
-        url: '/javascript/function-tasks'
+        url: '/javascript/function/tasks'
       }
     ]
   },
@@ -200,14 +200,6 @@ export const JavaScriptNavItems: INavData[] = [
       {
         name: 'Inheritance',
         url: '/notifications/badges'
-      },
-      {
-        name: 'Modal',
-        url: '/notifications/modal'
-      },
-      {
-        name: 'Toast',
-        url: '/notifications/toasts'
       }
     ]
   },
@@ -218,11 +210,11 @@ export const JavaScriptNavItems: INavData[] = [
     children: [
       {
         name: 'JSON Introduction',
-        url: '/javascript/json-intro'
+        url: '/javascript/json/intro'
       },
       {
         name: 'JSON Syntax',
-        url: '/javascript/json-syntax'
+        url: '/javascript/json/syntax'
       },
       {
         name: 'JSON vs XML',
@@ -230,19 +222,19 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JSON Parse',
-        url: '/javascript/json-parse'
+        url: '/javascript/json/parse'
       },
       {
         name: 'JSON Stringify',
-        url: '/javascript/json-stringify'
+        url: '/javascript/json/stringify'
       },
       {
         name: 'JSON Arrays',
-        url: '/javascript/json-arrays'
+        url: '/javascript/json/arrays'
       },
       {
         name: 'JSON Objects',
-        url: '/javascript/json-objects'
+        url: '/javascript/json/objects'
       }
     ]
   },
@@ -253,23 +245,23 @@ export const JavaScriptNavItems: INavData[] = [
     children: [
       {
         name: 'AJAX Intro',
-        url: '/javascript/ajax-intro'
+        url: '/javascript/ajax/intro'
       },
       {
         name: 'AJAX XMLHttp',
-        url: '/javascript/ajax-xmlhttp'
+        url: '/javascript/ajax/xmlhttp'
       },
       {
         name: 'AJAX Request',
-        url: '/javascript/ajax-request'
+        url: '/javascript/ajax/request'
       },
       {
         name: 'AJAX Response',
-        url: '/javascript/ajax-response'
+        url: '/javascript/ajax/response'
       },
       {
         name: 'AJAX Tasks',
-        url: '/javascript/ajax-tasks'
+        url: '/javascript/ajax/tasks'
       }
     ]
   },
@@ -280,55 +272,34 @@ export const JavaScriptNavItems: INavData[] = [
     name: 'JS DOM'
   },
   {
-    name: 'Pages',
-    url: '/login',
+    name: 'JS DOM',
+    url: '/dom',
     iconComponent: { name: 'cil-star' },
     children: [
       {
-        name: 'Login',
-        url: '/login'
+        name: 'DOM Intro',
+        url: '/javascript/dom/intro'
       },
       {
-        name: 'Register',
-        url: '/register'
+        name: 'DOM Methods',
+        url: '/javascript/dom/methods'
       },
       {
-        name: 'Error 404',
-        url: '/404'
+        name: 'DOM Document',
+        url: '/javascript/dom/document'
       },
       {
-        name: 'Error 500',
-        url: '/500'
+        name: 'DOM Elements ',
+        url: '/javascript/dom/elements'
+      },
+      {
+        name: 'DOM Events ',
+        url: '/javascript/dom/events'
+      },
+      {
+        name: 'DOM Event Listeners ',
+        url: '/javascript/dom/event/listener'
       }
     ]
-  },
-
-  // JS BOM
-  {
-    title: true,
-    name: 'JS BOM'
-  },
-  {
-    name: 'Pages',
-    url: '/login',
-    iconComponent: { name: 'cil-star' },
-    children: [
-      {
-        name: 'Login',
-        url: '/login'
-      },
-      {
-        name: 'Register',
-        url: '/register'
-      },
-      {
-        name: 'Error 404',
-        url: '/404'
-      },
-      {
-        name: 'Error 500',
-        url: '/500'
-      }
-    ]
-  },
+  }
 ];
