@@ -3,242 +3,303 @@ import { INavData } from '@coreui/angular';
 export const JavaScriptNavItems: INavData[] = [
   {
     name: 'JavaScript',
-    url: '/dashboard',
+    url: '/javascript',
     iconComponent: { name: 'cil-speedometer' },
     badge: {
       color: 'info',
-      text: 'NEW'
+      text: 'Popular'
     }
   },
   {
-    title: true,
-    name: 'Theme'
-  },
-  {
-    name: 'Colors',
-    url: '/theme/colors',
-    iconComponent: { name: 'cil-drop' }
-  },
-  {
-    name: 'Typography',
-    url: '/theme/typography',
-    linkProps: { fragment: 'someAnchor' },
-    iconComponent: { name: 'cil-pencil' }
-  },
-  {
-    name: 'Components',
+    name: 'JS Syntax',
     title: true
   },
   {
-    name: 'Base',
-    url: '/base',
+    name: 'JS Introduction',
+    url: '/javascript',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Accordion',
-        url: '/base/accordion'
+        name: 'JS Introduction',
+        url: 'javascript/introduction'
       },
       {
-        name: 'Breadcrumbs',
-        url: '/base/breadcrumbs'
+        name: 'JS Where To',
+        url: '/javascript/where_to'
       },
-      {
-        name: 'Cards',
-        url: '/base/cards'
-      },
-      {
-        name: 'Carousel',
-        url: '/base/carousel'
-      },
-      {
-        name: 'Collapse',
-        url: '/base/collapse'
-      },
-      {
-        name: 'List Group',
-        url: '/base/list-group'
-      },
-      {
-        name: 'Navs & Tabs',
-        url: '/base/navs'
-      },
-      {
-        name: 'Pagination',
-        url: '/base/pagination'
-      },
-      {
-        name: 'Placeholder',
-        url: '/base/placeholder'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress'
-      },
-      {
-        name: 'Spinners',
-        url: '/base/spinners'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips'
-      }
+      
     ]
   },
   {
-    name: 'Buttons',
-    url: '/buttons',
+    name: 'JS Fundamentals',
+    url: '/fundamentals',
     iconComponent: { name: 'cil-cursor' },
     children: [
       {
-        name: 'Buttons',
-        url: '/buttons/buttons'
+        name: 'JS Statements',
+        url: '/javascript/statements'
       },
       {
-        name: 'Button groups',
-        url: '/buttons/button-groups'
+        name: 'JS Variables',
+        url: '/javascript/variables'
       },
       {
-        name: 'Dropdowns',
-        url: '/buttons/dropdowns'
+        name: 'JS let',
+        url: '/javascript/let'
+      },
+      {
+        name: 'JS const',
+        url: '/javascript/const'
+      },
+      {
+        name: 'JS Data Types',
+        url: '/javascript/data-types'
+      },
+      {
+        name: 'JS Booleans',
+        url: '/javascript/booleans'
+      },
+      {
+        name: 'JS Comparisons',
+        url: '/javascript/comparisons'
+      },
+      {
+        name: 'JS If Else',
+        url: '/javascript/if-else'
+      },
+      {
+        name: 'JS Switch',
+        url: '/javascript/switch'
+      },
+      {
+        name: 'JS Loop For',
+        url: '/javascript/loop/for'
+      },
+      {
+        name: 'JS Loop For In',
+        url: '/javascript/loop/for-in'
+      },
+      {
+        name: 'JS Loop For Of',
+        url: '/javascript/loop/for-of'
+      },
+      {
+        name: 'JS Loop While',
+        url: '/javascript/loop/while'
+      },
+      {
+        name: 'JS Break',
+        url: '/javascript/break'
       },
     ]
   },
   {
-    name: 'Forms',
-    url: '/forms',
+    name: 'JS Data Types',
+    url: '/data-types',
     iconComponent: { name: 'cil-notes' },
     children: [
       {
-        name: 'Form Control',
-        url: '/forms/form-control'
+        name: 'JS Data Types',
+        url: '/javascript/data-types'
       },
-      {
-        name: 'Select',
-        url: '/forms/select'
-      },
-      {
-        name: 'Checks & Radios',
-        url: '/forms/checks-radios'
-      },
-      {
-        name: 'Range',
-        url: '/forms/range'
-      },
-      {
-        name: 'Input Group',
-        url: '/forms/input-group'
-      },
-      {
-        name: 'Floating Labels',
-        url: '/forms/floating-labels'
-      },
-      {
-        name: 'Layout',
-        url: '/forms/layout'
-      },
-      {
-        name: 'Validation',
-        url: '/forms/validation'
-      }
     ]
   },
   {
-    name: 'Charts',
-    url: '/charts',
-    iconComponent: { name: 'cil-chart-pie' }
-  },
-  {
-    name: 'Icons',
+    name: 'JS Numbers',
     iconComponent: { name: 'cil-star' },
-    url: '/icons',
+    url: '/numbers',
     children: [
       {
-        name: 'CoreUI Free',
-        url: '/icons/coreui-icons',
-        badge: {
-          color: 'success',
-          text: 'FREE'
-        }
+        name: 'JS Numbers',
+        url: '/javascript/numbers'
       },
       {
-        name: 'CoreUI Flags',
-        url: '/icons/flags'
+        name: 'JS Number Methods',
+        url: '/javascript/number/methods'
       },
       {
-        name: 'CoreUI Brands',
-        url: '/icons/brands'
+        name: ' JS Number Tasks',
+        url: '/javascript/number/tasks'
       }
     ]
   },
   {
-    name: 'Notifications',
+    name: 'JS Strings',
     url: '/notifications',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
+        name: 'JS String',
+        url: '/javascript/string'
+      },
+      {
+        name: 'JS String Methods',
+        url: '/javascript/string/methods'
+      },
+      {
+        name: 'JS String Tasks',
+        url: '/javascript/string/tasks'
+      }
+    ]
+  },
+  {
+    name: 'JS Arrays',
+    url: '/arrays',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'JS Arrays',
+        url: '/javascript/arrays'
+      },
+      {
+        name: 'JS Arrays Methods',
+        url: '/javascript/array/methods'
+      },
+      {
+        name: 'JS Array Tasks',
+        url: '/javascript/array/tasks'
+      }
+    ]
+  },
+  {
+    name: 'JS Functions',
+    url: '/functions',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'JS Functions',
+        url: '/javascript/functions'
+      },
+      {
+        name: 'Regular Functions',
+        url: '/javascript/regular/function'
+      },
+      {
+        name: 'Arrow Functions',
+        url: '/javascript/arrow/function'
+      },
+      {
+        name: 'JS Hoisting',
+        url: '/javascript/hoisting'
+      },
+      {
+        name: 'JS Functions Tasks',
+        url: '/javascript/function/tasks'
+      }
+    ]
+  },
+  {
+    name: 'JS OOP',
+    url: '/oop',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'Classes',
         url: '/notifications/alerts'
       },
       {
-        name: 'Badges',
+        name: 'Inheritance',
         url: '/notifications/badges'
-      },
-      {
-        name: 'Modal',
-        url: '/notifications/modal'
-      },
-      {
-        name: 'Toast',
-        url: '/notifications/toasts'
       }
     ]
   },
   {
-    name: 'Widgets',
-    url: '/widgets',
-    iconComponent: { name: 'cil-calculator' },
-    badge: {
-      color: 'info',
-      text: 'NEW'
-    }
+    name: 'JS JSON',
+    url: '/json',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'JSON Introduction',
+        url: '/javascript/json/intro'
+      },
+      {
+        name: 'JSON Syntax',
+        url: '/javascript/json/syntax'
+      },
+      {
+        name: 'JSON vs XML',
+        url: '/javascript/json&&xml'
+      },
+      {
+        name: 'JSON Parse',
+        url: '/javascript/json/parse'
+      },
+      {
+        name: 'JSON Stringify',
+        url: '/javascript/json/stringify'
+      },
+      {
+        name: 'JSON Arrays',
+        url: '/javascript/json/arrays'
+      },
+      {
+        name: 'JSON Objects',
+        url: '/javascript/json/objects'
+      }
+    ]
   },
+  {
+    name: 'JS AJAX',
+    url: '/ajax',
+    iconComponent: { name: 'cil-bell' },
+    children: [
+      {
+        name: 'AJAX Intro',
+        url: '/javascript/ajax/intro'
+      },
+      {
+        name: 'AJAX XMLHttp',
+        url: '/javascript/ajax/xmlhttp'
+      },
+      {
+        name: 'AJAX Request',
+        url: '/javascript/ajax/request'
+      },
+      {
+        name: 'AJAX Response',
+        url: '/javascript/ajax/response'
+      },
+      {
+        name: 'AJAX Tasks',
+        url: '/javascript/ajax/tasks'
+      }
+    ]
+  },
+
+  // JS DOM
   {
     title: true,
-    name: 'Extras'
+    name: 'JS DOM'
   },
   {
-    name: 'Pages',
-    url: '/login',
+    name: 'JS DOM',
+    url: '/dom',
     iconComponent: { name: 'cil-star' },
     children: [
       {
-        name: 'Login',
-        url: '/login'
+        name: 'DOM Intro',
+        url: '/javascript/dom/intro'
       },
       {
-        name: 'Register',
-        url: '/register'
+        name: 'DOM Methods',
+        url: '/javascript/dom/methods'
       },
       {
-        name: 'Error 404',
-        url: '/404'
+        name: 'DOM Document',
+        url: '/javascript/dom/document'
       },
       {
-        name: 'Error 500',
-        url: '/500'
+        name: 'DOM Elements ',
+        url: '/javascript/dom/elements'
+      },
+      {
+        name: 'DOM Events ',
+        url: '/javascript/dom/events'
+      },
+      {
+        name: 'DOM Event Listeners ',
+        url: '/javascript/dom/event/listener'
       }
     ]
-  },
+  }
 ];

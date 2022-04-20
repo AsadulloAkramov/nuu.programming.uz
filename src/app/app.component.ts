@@ -11,19 +11,21 @@ import { Title } from '@angular/platform-browser';
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
-  title = 'Nuu Progamming';
+  title = 'Nuu Programming';
 
   constructor(
     private router: Router,
     private titleService: Title,
     private iconSetService: IconSetService
   ) {
-    titleService.setTitle(this.title);
-    // iconSet singleton
-    iconSetService.icons = { ...iconSubset };
+    // titleService.setTitle(this.title);
+    // // iconSet singleton
+    // iconSetService.icons = { ...iconSubset };
   }
 
   ngOnInit(): void {
+    this.titleService.setTitle(this.title);
+    this.iconSetService.icons = { ...iconSubset };
     this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {
         return;
