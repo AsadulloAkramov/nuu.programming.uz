@@ -25,6 +25,10 @@ const routes: Routes = [
         loadChildren:( )=>import('./views/html/html.module').then((m) => m.HtmlModule)
       },
       {
+        path:'javascript',
+        loadChildren: ()=>import('./views/javascript/javascript.module').then((m)=> m.JavascriptModule)
+      },
+      {
         path: 'dashboard',
         loadChildren: () =>
           import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule)
