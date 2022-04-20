@@ -10,6 +10,8 @@ import {
   PerfectScrollbarModule,
 } from 'ngx-perfect-scrollbar';
 
+//utils 
+import { CommonsModule } from './commons/commons.module';
 // Import routing module
 import { AppRoutingModule } from './app-routing.module';
 
@@ -85,6 +87,7 @@ const APP_CONTAINERS = [
     BadgeModule,
     ListGroupModule,
     CardModule,
+    CommonsModule,
   ],
   providers: [
     {
