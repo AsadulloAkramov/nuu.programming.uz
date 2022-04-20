@@ -1,17 +1,6 @@
 <div class="introduction container-fluid fs-5">
   <h2 class="fs-1 ">HTML Introduction</h2>
-
-  <div class="d-flex justify-content-between align-items-center">
-    <a class="btn btn-success" routerLink="/html">
-      <i class="fa-solid fa-arrow-left-long"></i>
-       Previous
-    </a>
-    <a class="btn btn-success" routerLink="/html/basic">
-       Next
-       <i class="fa-solid fa-arrow-right-long"></i>
-    </a>
-  </div>
-
+ <prev-next [prev]="prev" [next]="next"></prev-next>
   <hr-line> 
     <p class="fs-3">HTML web sahifalar yaratish uchun standart markup tildir</p>
   </hr-line>
@@ -28,44 +17,27 @@
   </div>
   
   <hr-line>
-    <example >
-      <div class="content px-3 py-2">
-        <p class="text-danger"> <span class="primary-right"><</span> !DOCTYPE html <span class="primary-left">></span></p>
-        <p class="text-danger"> <span class="primary-right"><</span> html<span class="primary-left">></span></p>
-        <p class="text-danger"> <span class="primary-right"><</span> head<span class="primary-left">></span></p>
+    <example [pageLink]="introExampleLink" >
+      <html-base>
         <p class="text-danger">
           <span>
-            <span class="primary-right"><</span>title<span class="primary-left">></span>
+            <span class="primary-right"><</span>h1<span class="primary-left">></span>
           </span>
-            <span class="text-dark">Page title</span>
+            <span class="text-dark">My first heading</span>
             <span>
-              <span class="primary-right"><</span>/title<span class="primary-left">></span>
+              <span class="primary-right"><</span>/h1<span class="primary-left">></span>
             </span>
         </p>
-        <p class="text-danger"> <span class="primary-right"><</span> body<span class="primary-left">></span></p>
-          
-          <p class="text-danger">
+        <p class="text-danger">
+          <span>
+            <span class="primary-right"><</span>p<span class="primary-left">></span>
+          </span>
+            <span class="text-dark">My first paragraph</span>
             <span>
-              <span class="primary-right"><</span>h1<span class="primary-left">></span>
+              <span class="primary-right"><</span>/p<span class="primary-left">></span>
             </span>
-              <span class="text-dark">My first heading</span>
-              <span>
-                <span class="primary-right"><</span>/h1<span class="primary-left">></span>
-              </span>
-          </p>
-          <p class="text-danger">
-            <span>
-              <span class="primary-right"><</span>p<span class="primary-left">></span>
-            </span>
-              <span class="text-dark">My first paragraph</span>
-              <span>
-                <span class="primary-right"><</span>/p<span class="primary-left">></span>
-              </span>
-          </p>
-          
-        <p class="text-danger"> <span class="primary-right"><</span> /body<span class="primary-left">></span></p>
-        <p class="text-danger"> <span class="primary-right"><</span> /html<span class="primary-left">></span></p>
-      </div>
+        </p>
+      </html-base>
     </example>
 
     <div class="example-explain">

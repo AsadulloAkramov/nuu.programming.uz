@@ -6,12 +6,14 @@ import { CommonsModule } from '../../commons/commons.module'
 import { HtmlRoutingModule } from './html-routing.module';
 import { HomeComponent } from './home/home.component';
 import { BasicComponent } from './basic/basic.component';
+import { IntroExampleComponent } from './introduction/intro-example/intro-example.component';
 
 @NgModule({
   declarations: [
     IntroductionComponent,
     HomeComponent,
-    BasicComponent
+    BasicComponent,
+    IntroExampleComponent
   ],
   imports: [
     CommonModule,
