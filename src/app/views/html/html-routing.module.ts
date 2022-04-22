@@ -4,6 +4,8 @@ import { BasicComponent } from './basic/basic.component';
 import { HomeComponent } from './home/home.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { IntroExampleComponent } from './introduction/intro-example/intro-example.component';
+import {BasicParagraphComponent} from "./basic/basic-paragraph/basic-paragraph.component";
+import {BasicHeadingComponent} from "./basic/basic-heading/basic-heading.component";
 
 const routes: Routes =[
   {
@@ -23,6 +25,14 @@ const routes: Routes =[
       {
         path: 'intro-example',
         component: IntroExampleComponent
+      },
+      {
+        path: 'try-yourself/basic-paragraph',
+        component: BasicParagraphComponent
+      },
+      {
+        path: 'try-yourself/basic-heading',
+        component: BasicHeadingComponent
       },
       {
         path: 'basic',

@@ -7,13 +7,17 @@ import { HtmlRoutingModule } from './html-routing.module';
 import { HomeComponent } from './home/home.component';
 import { BasicComponent } from './basic/basic.component';
 import { IntroExampleComponent } from './introduction/intro-example/intro-example.component';
+import { BasicParagraphComponent } from './basic/basic-paragraph/basic-paragraph.component';
+import { BasicHeadingComponent } from './basic/basic-heading/basic-heading.component';
 
 @NgModule({
   declarations: [
     IntroductionComponent,
     HomeComponent,
     BasicComponent,
-    IntroExampleComponent
+    IntroExampleComponent,
+    BasicParagraphComponent,
+    BasicHeadingComponent
   ],
   imports: [
     CommonModule,
