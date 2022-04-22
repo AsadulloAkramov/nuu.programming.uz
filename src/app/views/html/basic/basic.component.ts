@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basic.component.scss']
 })
 export class BasicComponent implements OnInit {
-
+  introExampleLink: string = "/html/intro-example";
   constructor() { }
 
   ngOnInit(): void {
