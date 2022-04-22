@@ -5,6 +5,7 @@ import { HrLineComponent } from './hr-line/hr-line.component';
 import { ExampleComponent } from './example/example.component';
 import { PrevNextComponent } from './prev-next/prev-next.component';
 import { HtmlBaseComponent } from './html-base/html-base.component';
+import { FreeAreaExampleComponent } from './free-area-example/free-area-example.component';
 
 
 
@@ -13,7 +14,8 @@ import { HtmlBaseComponent } from './html-base/html-base.component';
     HrLineComponent,
     ExampleComponent,
     PrevNextComponent,
-    HtmlBaseComponent
+    HtmlBaseComponent,
+    FreeAreaExampleComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { HtmlBaseComponent } from './html-base/html-base.component';
     HrLineComponent,
     ExampleComponent,
     PrevNextComponent,
-    HtmlBaseComponent
+    HtmlBaseComponent,
+    FreeAreaExampleComponent
   ]
 })
 export class CommonsModule { }
