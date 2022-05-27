@@ -46,7 +46,7 @@ import {
   UtilitiesModule,
 } from '@coreui/angular';
 
-import { IconModule, IconSetService } from '@coreui/icons-angular';
+import { IconModule,IconSetModule, IconSetService } from '@coreui/icons-angular';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true,
@@ -72,6 +72,7 @@ const APP_CONTAINERS = [
     HeaderModule,
     SidebarModule,
     IconModule,
+    IconSetModule.forRoot(),
     PerfectScrollbarModule,
     NavModule,
     ButtonModule,
