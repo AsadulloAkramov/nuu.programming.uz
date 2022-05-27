@@ -25,7 +25,7 @@ export const JavaScriptNavItems: INavData[] = [
       },
       {
         name: 'JS Where To',
-        url: '/javascript/where_to'
+        url: '/javascript/where-to'
       },
       
     ]
