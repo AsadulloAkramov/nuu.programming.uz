@@ -1,0 +1,80 @@
+<div class="statements ">
+  <h2 class="fs-1 ">JavaScript Statements</h2>
+  <prev-next [prev]="prev" [next]="next"></prev-next>
+  <hr-line>
+
+    <h2>JavaScript dasturlari</h2>
+    <p> <strong>Computer program</strong> deganda kompyuter tomonidan amalga
+      oshiriladigan instruksiyalar to'plami tushuniladi
+    </p>
+    <p>Dasturlash tillarida esa aynan shu instruksiyalar <b>statements</b> deb ataladi</p>
+    <p>Demak JavaScript dasturini ham shunday <b>statements</b> lar to'plami desak bo'ladi</p>
+
+    <div class="alert alert-warning">
+      HTMLda esa JS dasturlari brauzer tomonidan bajariladi
+    </div>
+
+  </hr-line>
+  <h3>JavaScript Statements</h3>
+  <hr-line>
+
+    <p>JavaScript statementslar quyidagilardan tashkil topgan: </p>
+    <ul>
+      <li *ngFor="let statement of statemenstList"> {{ statement}}</li>
+    </ul>
+
+    <p>Ko'plab JavaScript dasturlari ko'plab JavaScript statementslarda tashkil topadi</p>
+    <p>Bu statementslar esa birin ketinlik tartibida bajariladi</p>
+
+    <div class="alert alert-warning">
+      JavaScript programs (va JavaScript statements) lari odatda JavaScript code deyiladi <br>
+      Xulosa qilib aytganda JavaScript code bu JavaScript statementlar to'plami ekan
+    </div>
+  </hr-line>
+
+  <h3>Semicolons ; (Nuqtali vergul)</h3>
+  <hr-line>
+    <p>Nuqtali vergul JavaScript statementlarni ajratish uchun ishlatiladi</p>
+    <p>Nuqatli vergullar statementning oxiriga qo'yiladi</p>
+
+    //example to-do
+
+    <p>Xattoki statementlar nuqtali vergul bilan ajratilsa ular bitta liniyada ham yozilishi mumkin</p>
+
+    <div class="alert alert-warning">
+      Siz bazida misollar ko'rganingizda unda semicolonlar tushirib qoldirilgan bo'lishi ham mumkin <br>
+      Ya'ni aslida statement tugashi uchu semicolon qat'iy talab etilmaydi, ammo ulardan foydalanish tavsiya etiladi
+    </div>
+  </hr-line>
+  <h3>JavaScript White Space (Bo'shliqlar ya'ni bo'sh joylar)</h3>
+  <hr-line>
+    <p>JavaScript odatda multiple spacingni (kodda ko'pgina bo'shliqlar qo'shishni)e'tiborga olmaydi. Ammo siz 
+      o'z scriptingizga (JavaScript code script deyiladi) uni o'qishga oson bo'lishi uchun space qo'yishingiz mumkin bo'ladi 
+    </p>
+    <p>
+      Tushunishga oson bo'lishi uchun quyidagi misolga qarang. Ikkalasi natija jihatidan ekvivalent
+    </p>
+    // example to-do
+    <p>(=+-*/) operatorlar atrofida spacelarni qo'yish odatda best practice sanaladi</p>
+    //example to-do
+  </hr-line>
+  <h3>JavaScript Keywords</h3>
+  <hr-line>
+    <p>JavaScript statementlar mos JavaScript actionni amalga oshiradigan <b>keyword</b> bilan boshlanadi</p>
+    <p>Quyidagi jadvalda bazi JS keywordlar bilan tanishishingiz mumkin</p>
+    <div class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Keywords</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let keyword of keywords; index as i">
+          <td>{{ keyword }}</td>
+          <td>{{ descriptions[i] }}</td>
+        </tr>
+      </tbody>
+    </div>
+  </hr-line>
+</div>
