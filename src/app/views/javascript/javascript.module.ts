@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { StatementsComponent } from './statements/statements.component';
 import { CommonsModule } from '../../commons/commons.module';
 import { StatementExampleComponent } from './statements/statement-example/statement-example.component';
+import { VariablesComponent } from './jsvariables/variables/variables.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { StatementExampleComponent } from './statements/statement-example/statem
     IntroductionComponent,
     HomeComponent,
     StatementsComponent,
-    StatementExampleComponent
+    StatementExampleComponent,
+    VariablesComponent
   ],
   imports: [
     CommonModule,

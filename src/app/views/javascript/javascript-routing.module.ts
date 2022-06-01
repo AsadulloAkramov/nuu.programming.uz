@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { StatementsComponent } from './statements/statements.component';
+import { VariablesComponent } from './jsvariables/variables/variables.component';
 const routes: Routes =[
   {
     path:'',
@@ -22,6 +23,10 @@ const routes: Routes =[
       {
         path: 'statements',
         component: StatementsComponent
+      },
+      {
+        path: 'variables',
+        component: VariablesComponent
       }
     ]
   }
