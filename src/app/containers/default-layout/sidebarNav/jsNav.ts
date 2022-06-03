@@ -16,19 +16,11 @@ export const JavaScriptNavItems: INavData[] = [
   },
   {
     name: 'JS Introduction',
-    url: '/javascript',
-    iconComponent: { name: 'cil-puzzle' },
-    children: [
-      {
-        name: 'JS Introduction',
-        url: 'javascript/introduction'
-      },
-      {
-        name: 'JS Where To',
-        url: '/javascript/where-to'
-      },
-      
-    ]
+    url: 'javascript/introduction'
+  },
+  {
+    name: 'JS Where To',
+    url: '/javascript/where-to'
   },
   {
     name: 'JS Fundamentals',

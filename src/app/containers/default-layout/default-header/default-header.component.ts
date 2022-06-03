@@ -3,7 +3,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 
 import { ClassToggleService, HeaderComponent } from '@coreui/angular';
 import { LayoutService } from '../layout.service';
-import { htmlNavItems, cssNavItems, JavaScriptNavItems} from '../sidebarNav/_nav';
+import { htmlNavItems, cssNavItems, JavaScriptNavItems, PythonNavItems, CsharpNavItems} from '../sidebarNav/_nav';
 @Component({
   selector: 'app-default-header',
   templateUrl: './default-header.component.html',
@@ -26,15 +26,18 @@ export class DefaultHeaderComponent  implements OnInit{
     switch (item) {
       case 'html':
         this.layoutService.OnChangeSidebar(htmlNavItems);
-        console.log(`${item} clicked`);
         break;
       case 'css':
         this.layoutService.OnChangeSidebar(cssNavItems);
-        console.log(`${item} clicked`);
         break;
-        case 'javascript':
+      case 'javascript':
         this.layoutService.OnChangeSidebar(JavaScriptNavItems);
-        console.log(`${item} clicked`);
+        break;
+      case 'python':
+        this.layoutService.OnChangeSidebar(PythonNavItems);
+        break;
+      case 'csharp':
+        this.layoutService.OnChangeSidebar(CsharpNavItems);
         break;
       default:
         break;
