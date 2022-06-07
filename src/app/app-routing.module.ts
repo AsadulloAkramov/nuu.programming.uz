@@ -29,6 +29,14 @@ const routes: Routes = [
         loadChildren: ()=>import('./views/javascript/javascript.module').then((m)=> m.JavascriptModule)
       },
       {
+        path:'python',
+        loadChildren: ()=> import('./views/python/python.module').then((m)=> m.PythonModule)
+      },
+      {
+        path: 'csharp',
+        loadChildren: ()=> import('./views/csharp/csharp.module').then((m) => m.CsharpModule)
+      },
+      {
         path: 'dashboard',
         loadChildren: () =>
           import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule)
