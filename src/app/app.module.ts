@@ -10,15 +10,10 @@ import {
   PerfectScrollbarModule,
 } from 'ngx-perfect-scrollbar';
 
-//utils 
 import { CommonsModule } from './commons/commons.module';
-// Import routing module
 import { AppRoutingModule } from './app-routing.module';
-
-// Import app component
 import { AppComponent } from './app.component';
 
-// Import containers
 import {
   DefaultFooterComponent,
   DefaultHeaderComponent,
